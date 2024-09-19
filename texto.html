@@ -1,0 +1,10 @@
+<body>
+    <div id="uniqueElement">Texto original</div>
+    <button onclick="changeTextById()">Mudar Texto</button>
+    <script>
+        function changeTextById() {
+            const element = document.getElementById("uniqueElement");
+            element.textContent = "Texto alterado pelo getElementById!"
+        }
+    </script>
+</body>
