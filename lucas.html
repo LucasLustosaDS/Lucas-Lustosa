@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Lustosa</title>
+    <html>  
+</head>
+<body>
+    <script>
+        window.alert("Olá, aluno");
+        window.confirm("Tudo bem com você?")
+        window.confirm("Você quer entrar?");
+        var nome = window.prompt("Digite seu nome:");
+        window.alert("Pronto " + nome + ", você pode entrar!");
+    </script>
+    <h1>Versionamento de código</h1>
+    <p>Lucas Lustosa da Silva
+    <p>estudante do IESB</p>
+    <p>Análise e Desenvolvimento de Sistemas</p>
+    <P>Aqui é o espaço para abrir e fechar meu repositório</P>
+    <P>clique em abrir e depois clique em fechar</P>
+    <button onclick="abrirAba()">Abrir Aba</button>
+    <button onclick="fecharAba()">Fechar Aba</button>
+    <script>
+        let minhaAba;
+        function abrirAba() {
+            minhaAba = window.open('https://github.com/LucasLustosaDS/Lucas-Lustosa');
+        }
+        function fecharAba() {
+            minhaAba.close();
+        }
+    </script>
+    <style>
+        body {
+            background-color: black;
+            color: Azure;
+            font: normal 16pt Arial;
+        }
+        h1 {
+            color: aqua;
+        }
+        p {
+            color: aquamarine;
+        }
+        button {
+            color:blue;
+        }
+    </style>
+</body>
+</html>
