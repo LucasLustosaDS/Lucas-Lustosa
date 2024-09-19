@@ -1,0 +1,2 @@
+Hoje eu fiz um arquivo HTML para a primerira atividade de versionamento de códdigo no curso Manutenção de Software e DevOps, para fazer este arquivo primeiro tive que criar primerio um alert para a pessoa digitar o seu nome e deixa-la entrar no site
+usando o HTML, depois coloquei alguns arquivos CSS deixando o texto colorido para cirar um window que consegusse controlar a janela do navegador permitondo abrir, fechar e redimensionar o navergador do git.
